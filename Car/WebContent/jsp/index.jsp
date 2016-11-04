@@ -7,6 +7,6 @@
 <title>首页</title>
 </head>
 <body>
-	<h1>没有刷新啊</h1>
+	<h1>这是JSP文件夹下的</h1>
 </body>
 </html>
