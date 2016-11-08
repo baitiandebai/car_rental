@@ -14,7 +14,7 @@
 	</context-param>
 
 	<context-param>
-		<param-name>log4jConfigLOcation</param-name>
+		<param-name>log4jConfigLocation</param-name>
 		<param-value>classpath:log4j.properties</param-value>
 	</context-param>
 
@@ -50,6 +50,17 @@
 		<servlet-name>springMVC</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	  <!-- druid -->
+<!--     <servlet> -->
+<!--         <servlet-name>DruidStatView</servlet-name> -->
+<!--         <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class> -->
+<!--     </servlet> -->
+<!--     <servlet-mapping> -->
+<!--         <servlet-name>DruidStatView</servlet-name> -->
+<!--         <url-pattern>/druid/*</url-pattern> -->
+<!--     </servlet-mapping> -->
+	
 	<!-- 过滤编码方式，防止乱码 -->
 	<filter>
 		<filter-name>encodingFilter</filter-name>
